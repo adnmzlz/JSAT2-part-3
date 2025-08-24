@@ -14,6 +14,12 @@
   hello = "Hello there!";
   myName = "Aidan";
 
+  // Printing strings in the console
+  console.log(myString);
+  console.log(anotherString);
+  console.log(hello);
+  console.log(myName);
+
 // Question 2: Use utility functions length and char to find out information
   // Length of myString
   console.log('Question 2: myString length is: ' + myString.length);
