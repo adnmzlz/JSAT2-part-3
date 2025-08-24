@@ -62,6 +62,7 @@
 
   // Importing the file system module for safety
   const fs = require('fs');
+  let data = 'This is a string which will be saved to a text file.'
 
   // Algorithm for saving string to text using the writeFile function
   console.log('Question 6: Writing to file...');
@@ -69,6 +70,7 @@
     // Check for errors
     if (err) {
       console.error(err);
+      return;
     } else {
       // Log that file was successfully written
       console.log('File written successfully');
@@ -77,7 +79,7 @@
 
   // Algorithm for reading the text in the file
   console.log('Question 6: Reading from file...');
-  fs.readFile('output.txt', () => (err, fileText) => {
+  fs.readFile('output.txt', (err, fileText) => {
     // Check for errors
     if(err) {
       console.error(err);
@@ -89,7 +91,4 @@
 
   // Question 7: Write a text file
 
-  // See answer to above question for the 'output.txt' file naming
-
-  // Defining the string we'll save as a text file
-  let data = 'This is a string which will be saved to a text file.'
+  // See answer to above question for the 'output.txt' file naming and defining the string
