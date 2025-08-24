@@ -41,10 +41,10 @@
 // Question 4: Change case of string
 
   // Print myName string in all uppercase
-  console.log('Question 4: myName is uppercase is: ' + myName.toUpperCase());
+  console.log('Question 4: myName in uppercase is: ' + myName.toUpperCase());
 
   // Print myName string in all lowercase
-  console.log('Question 4: myName is lowercase is: ' + myName.toLowerCase());
+  console.log('Question 4: myName in lowercase is: ' + myName.toLowerCase());
 
 // Question 5: Use concat, trim, replace and split to create new strings 
 
