@@ -15,7 +15,7 @@
   myName = "Aidan";
 
   // Printing strings in the console
-  console.log(myString);
+  console.log('Question 1: Printed strings are: ' + myString);
   console.log(anotherString);
   console.log(hello);
   console.log(myName);
